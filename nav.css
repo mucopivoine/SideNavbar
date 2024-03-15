@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #e7dbe5;
+    background-color: white;
 }
 h2{
     color:black ;
@@ -19,9 +19,6 @@ h2{
     padding: 10px 0;
     text-align: center;
     z-index: 1000;
-}
-.sidebar i{
-
 }
 
 .toggle-btn {
@@ -39,7 +36,7 @@ h2{
     position: fixed;
     top:1;
     left:-400px; 
-    background-color: #ba92b8;
+    background-color: #aba6aa;
     padding: 20px 50px;
     transition: right 0.3s ease-in-out;
     z-index: 0; 
@@ -63,7 +60,7 @@ h2{
 }
 
 .sidebar a:hover {
-    background-color: #555;
+    background-color: #e79fe3;
 }
 .sidebar a:hover::after{
     align-items: center;
