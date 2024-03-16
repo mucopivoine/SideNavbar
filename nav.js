@@ -7,9 +7,10 @@ toggleBtn.addEventListener('click', () => {
     sidebar.classList.toggle('active');
     content.classList.toggle('active');
 });
-const closeButton = document.querySelector('closebutton');
-     closeButton.addEventListener('click', () =>{
-        sidebar.classList.toggle.remove('active');
-        content.classList.toggle.remove('active');
-     });
-    });
+const closeBtn = document.querySelector(".close-btn");
+ closeBtn.addEventListener('click' ,() =>{
+    sidebar.classList.remove('active');
+    content.classList.remove('active');
+ });
+});
+ 
